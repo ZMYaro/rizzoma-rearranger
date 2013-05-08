@@ -1,0 +1,48 @@
+/* Left side tabs */
+.tabs-container .tab {
+	   border-top-right-radius: 0 !important;
+	border-bottom-right-radius: 0 !important;
+}
+.tabs-container .tab.active {
+	border-radius: 6px 0 0 6px !important;
+}
+.tabs-container .tab.topics {
+	padding-top: 9px !important;
+	margin-top: 54px !important;
+	height: 80px !important;
+}
+.tabs-container .pict, .tabs-container .topics-pict {
+	margin-top: 2px !important;
+}
+
+/* Right side expand/collapse buttons */
+.hide-replies, .show-replies,
+/* Right side blue buttons */
+.insert-reply, .insert-mention, .insert-task, .insert-tag,
+/* Rizzoma logo, LinkedIn button, and CWS link in search panel */
+.tips-head-container {
+	display: none !important;
+}
+
+/* Move text/mind map tabs */
+.active-blip-controls, .mindmap-view-switch-buttons {
+	top: 230px !important;
+}
+
+/* Keyboard shortcut list */
+#navigation-panel.tips-hidden .tips-box, #navigation-panel.first-visit.tips-hidden .tips-box {
+	height: 4px !important;
+}
+#navigation-panel.tips-hidden, #navigation-panel.tips-hidden.first-visit {
+	padding-bottom: 4px !important;
+}
+
+.tips-box {
+	height: 96px !important;
+}
+.tips-content {
+	padding-bottom: 0 !important;
+}
+#navigation-panel {
+	padding-bottom: 96px !important;
+}
