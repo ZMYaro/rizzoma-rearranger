@@ -28,6 +28,10 @@
 .active-blip-controls, .mindmap-view-switch-buttons {
 	top: 230px !important;
 }
+/* Text/mind map view active tab */
+.right-tools-panel:not(.mindmap-view) .text-view, .mindmap-view.right-tools-panel .mindmap-view {
+	background-color: #F7F7F7 !important;
+}
 
 /* Keyboard shortcut list */
 #navigation-panel.tips-hidden .tips-box, #navigation-panel.first-visit.tips-hidden .tips-box {
